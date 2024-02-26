@@ -9,6 +9,7 @@ import { Provider } from "react-redux";
 import Liked from "./Components/Home/Liked";
 
 function App() {
+  document.title = "Warehouse Finder"
   const router = createBrowserRouter([
     {
       path: "/",
