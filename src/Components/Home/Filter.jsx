@@ -23,7 +23,7 @@ const Filter = () => {
   ];
   return (
     <form
-      className="flex items-center w-[90%] justify-between"
+      className="flex items-center w-[90%] justify-center gap-y-4 tablet:justify-between flex-wrap"
       onSubmit={(e) => {
         e.preventDefault();
         dispatch(
@@ -36,7 +36,7 @@ const Filter = () => {
         navigate("/filter");
       }}
     >
-      <div className="flex items-center justify-evenly w-[90%]">
+      {/* <div className="flex items-center justify-evenly w-[90%]"> */}
         <div className="flex items-center gap-4">
           <label htmlFor="city">Enter City</label>
           <select name="city" id="city" ref={cityRef}>
@@ -76,7 +76,7 @@ const Filter = () => {
             })}
           </select>
         </div>
-      </div>
+      {/* </div> */}
       <button type="submit" className="py-2 px-4 rounded-lg bg-buttonColor text-white font-medium">
         Filter
       </button>

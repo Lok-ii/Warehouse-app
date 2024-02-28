@@ -19,29 +19,6 @@ function App() {
           path: "/",
           element: <Home />,
         },
-
-        {
-          path: "/rent",
-          element: <Home />,
-        },
-
-        {
-          path: "/buy",
-          element: <Home />,
-        },
-
-        {
-          path: "/sell",
-          element: <Home />,
-        },
-        {
-          path: "/manageproperty",
-          element: <Home />,
-        },
-        {
-          path: "/resources",
-          element: <Home />,
-        },
         {
           path: "/filter",
           element: <Home />

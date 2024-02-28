@@ -16,7 +16,7 @@ const Warehouse = ({ warehouse }) => {
     }
   }, []);
   return (
-    <div className="w-[30%] border-2 border-buttonColor rounded-tl-[3rem] rounded-br-[3rem] p-4 cursor-pointer">
+    <div className="w-[95%] mobile-large:w-[45%] laptop:w-[30%] border-2 border-buttonColor rounded-tl-[3rem] rounded-br-[3rem] p-4 cursor-pointer transition-all duration-300 hover:shadow-3xl">
       <div className="flex items-center justify-between">
         <p className="text-lg font-bold">{warehouse.name}</p>
         <div
